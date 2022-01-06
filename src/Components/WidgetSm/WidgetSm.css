@@ -1,0 +1,42 @@
+.WidgetSm {
+  display: flex;
+  box-shadow: 3px 4px 14px -6px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 3px 4px 14px -6px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 3px 4px 14px -6px rgba(0, 0, 0, 0.48);
+  padding: 1rem 0rem;
+  align-items: center;
+  margin-left: 1rem;
+}
+.WidgetSmFull-title h3 {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+.WidgetSm-txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+}
+.widgetSm-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.widgetSm-title {
+  margin-right: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.widgetSm-job {
+  font-size: 15px;
+  font-weight: normal;
+}
+.widgetSm-btn button {
+  font-size: 15px !important;
+  background-color: #999;
+  color: black;
+  width: 15px;
+  height: 30px;
+  text-transform: capitalize;
+}

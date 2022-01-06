@@ -1,0 +1,17 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.col-md-3,
+.col-sm-3,
+.col-xs-3 {
+  padding: 0;
+}

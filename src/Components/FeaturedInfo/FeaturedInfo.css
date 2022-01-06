@@ -1,0 +1,39 @@
+.featured-full {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.featured-item {
+  padding: 0rem 2rem;
+  border-radius: 10px;
+  box-shadow: 3px 4px 14px -6px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 3px 4px 14px -6px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 3px 4px 14px -6px rgba(0, 0, 0, 0.48);
+  cursor: pointer;
+}
+.featured-title {
+  font-family: 500;
+  font-size: 1.5rem;
+}
+.featured-container {
+  display: flex;
+  margin-top: 10px;
+}
+.featured-money {
+  font-size: 2rem;
+  font-family: 500;
+}
+.featured-info {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.featured-info .down {
+  color: red;
+}
+.featured-info .up {
+  color: green;
+}
+.featured-sub {
+  margin-top: 10px;
+}
